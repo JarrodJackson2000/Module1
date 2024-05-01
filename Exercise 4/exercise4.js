@@ -9,11 +9,11 @@ function subtraction(a, b) {
   return a - b;
 }
 
-function multiplication() {
+function multiplication(a, b) {
   return a * b;
 }
 
-function division() {
+function division(a, b) {
   return a / b;
 }
 
@@ -24,3 +24,9 @@ console.log(subtraction(5, 5));
 console.log(multiplication(5, 5));
 
 console.log(division(5, 5));
+
+function callName(x) {
+  return "Hello " + x;
+}
+
+console.log(callName("Jarrod"));
