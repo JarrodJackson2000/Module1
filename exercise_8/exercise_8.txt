@@ -1,0 +1,31 @@
+Exercise 8 - Dice Project
+You have been hired by devsInc to create a landing page for their
+new project. They want to support people playing tabletop games
+from home and require a Dice Generator.
+Features:
+The user should be able to use different dice, such as a D6 or a D10
+(number of faces).
+• Define on paper, all the user stories (functionalities) you will need
+for this page.
+• Make a simple storyboard of the user using the system.
+• Create a git repository for the project
+• Clone the project locally
+• Work on the project creating 2 branches, one for the UI, and one
+for rolling the dice, committing and merging when completed.
+• Create the roll functionality by passing an argument, in order to
+reutilise the same function multiple times
+• Write unit tests for the roll dice functionality.
+• When complete, push the content to your git repository.
+
+User Stories: 
+
+I am the user, when I visit the webpage I want to be welcomed to 
+devsInc's page and be able to read a description on how to use the dice feature.
+
+I want to be able to select which size dice I would like to roll.
+
+I want to be able to see clearly what the result of the dice is. 
+
+I want to be able to roll the dice again as many times as I require. 
+
+I want to be able to switch between using the two different sized dice. 
