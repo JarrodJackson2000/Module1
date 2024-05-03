@@ -1,0 +1,30 @@
+<!-- Create a simple bank website. The account balance should show on screen
+(starting with $100). There should be a deposit number field and deposit button,
+and withdraw number field and withdraw button. The user should not be able to
+withdraw more than their account has -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank Account</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>User's Bank Account</h1>
+    <div class="userInfo">
+      <h3 id="userBalance" type="number" value="0"></h3>
+      <div class="deposit">
+        <h4 id="deposit">Deposit:</h4>
+        <input type="number" id="depositAmount" value="input" />
+        <button onclick="deposit()">Deposit</button>
+      </div>
+      <div class="withdraw">
+        <h4>Withdraw:</h4>
+        <input type="number" id="withdrawAmount" value="input" />
+        <button onclick="withdraw()">Withdraw</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
