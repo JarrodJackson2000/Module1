@@ -1,0 +1,75 @@
+var dealership = {
+  dealerships: [
+    {
+      employees: [
+        {
+          name: "Jarrod",
+          job_title: "Manager",
+          salary: 50000,
+        },
+        {
+          name: "John",
+          job_title: "Salesman",
+          salary: 60000,
+        },
+      ],
+      cars: [
+        {
+          model_name: "Supra",
+          manufacturer_name: "Toyota",
+          model_year: 2023,
+          price: 30000,
+        },
+        {
+          model_name: "Skyline",
+          manufacturer_name: "Nissan",
+          model_year: 2022,
+          price: 40000,
+        },
+        {
+          model_name: "Silvia",
+          manufacturer_name: "Nissan",
+          model_year: 2024,
+          price: 35000,
+        },
+      ],
+    },
+    {
+      employees: [
+        {
+          name: "George",
+          job_title: "Manager",
+          salary: 55000,
+        },
+        {
+          name: "David",
+          job_title: "Salesman",
+          salary: 65000,
+        },
+      ],
+      cars: [
+        {
+          model_name: "Civic",
+          manufacturer_name: "Honda",
+          model_year: 2023,
+          price: 32000,
+        },
+        {
+          model_name: "Chaser",
+          manufacturer_name: "Toyota",
+          model_year: 2021,
+          price: 38000,
+        },
+        {
+          model_name: "Mustang",
+          manufacturer_name: "Ford",
+          model_year: 2022,
+          price: 37000,
+        },
+      ],
+    },
+  ],
+};
+
+console.log(dealership.dealerships[0].employees[1]);
+console.log(dealership.dealerships[1].cars[1]);
